@@ -1,5 +1,6 @@
 set -xe
-_tag=v0.11.0
+_version="$1"
+_tag="v$1"
 
 _dir=$(pwd)
 
@@ -15,10 +16,11 @@ bin/vh set pom
 ./mvnw -B -ntp clean install -DskipTests=true
 ./mvnw -B -ntp -f doc clean package -Pjavadoc -DskipTests=true
 
-rm -rf ${_dir}/${_tag}
+rm -rf ${_dir}/${_version}
 
-mv doc/target/site/apidocs ${_dir}/${_tag}
+mkdir ${_dir}/${_version}
+
+mv doc/target/site/apidocs ${_dir}/${_version}/
 
 cd ${_dir}
-
 
