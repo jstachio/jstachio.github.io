@@ -13,7 +13,7 @@ git checkout ${_tag}
 bin/vh set pom
 #bin/vh validate
 
-./mvnw -B -ntp clean install -DskipTests=true
+#./mvnw -B -ntp clean install -DskipTests=true
 ./mvnw -B -ntp -f doc clean package -Pjavadoc -DskipTests=true
 
 rm -rf ${_dir}/${_version}
