@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"io.jstach.jstache"},{"l":"io.jstach.jstachio"},{"l":"io.jstach.opt.jmustache"},{"l":"io.jstach.opt.spring"},{"l":"io.jstach.opt.spring.example"},{"l":"io.jstach.opt.spring.webflux"},{"l":"io.jstach.opt.spring.webflux.example"},{"l":"io.jstach.opt.spring.webmvc"}];updateSearchResults();
