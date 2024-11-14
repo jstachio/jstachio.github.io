@@ -21,7 +21,7 @@ rm -rf ${_dir}/${_version}
 
 mkdir ${_dir}/${_version}
 
-mv target/site/apidocs ${_dir}/${_version}/
+mv target/reports/apidocs ${_dir}/${_version}/
 
 cd ${_dir}
 
