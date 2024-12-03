@@ -1,0 +1,4 @@
+module:io.jstach.ezkv.boot
+io.jstach.ezkv.boot
+module:io.jstach.ezkv.kvs
+io.jstach.ezkv.kvs
