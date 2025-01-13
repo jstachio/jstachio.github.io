@@ -1,0 +1,10 @@
+module:io.jstach.ezkv.boot
+io.jstach.ezkv.boot
+module:io.jstach.ezkv.dotenv
+io.jstach.ezkv.dotenv
+module:io.jstach.ezkv.json5
+io.jstach.ezkv.json5
+module:io.jstach.ezkv.kvs
+io.jstach.ezkv.kvs
+module:io.jstach.ezkv.xml
+io.jstach.ezkv.xml
