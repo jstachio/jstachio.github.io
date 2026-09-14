@@ -15,7 +15,7 @@ bin/vh set pom
 #bin/vh validate
 
 #./mvnw -B -ntp clean install -DskipTests=true
-./mvnw -B -ntp clean package -Pdoc -Ddeploy=release -Duser.timezone=UTC -DskipTests=true
+./mvnw -T1 -B -ntp clean package -Pdoc -Ddeploy=release -Duser.timezone=UTC -DskipTests=true
 
 rm -rf ${_dir}/${_version}
 
