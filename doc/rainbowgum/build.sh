@@ -29,3 +29,4 @@ rm current
 
 ln -s ${_version} current
 
+./index.sh
